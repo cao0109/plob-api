@@ -44,5 +44,15 @@ module.exports = ({ env }) => ({
       },
     },
   },
-
+  "vercel-deploy": {
+    enabled: true,
+    config: {
+    deployHook:
+      "https://api.vercel.com/v1/integrations/deploy/prj_JYNJ3EAJgm2LcYQhQ3Xr9yBCHrP8/X8OjL1MPAd",
+    apiToken: "uyXvTqPaBW6JRDuiOXQXDD3c",
+    appFilter: "plob-api",
+    teamFilter: "team_A4xuz8CUDKfzdRX7fEuFqFvk",
+    roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
+   },
+  }
 });
