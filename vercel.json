@@ -1,5 +1,0 @@
-{
-  "installCommand": "yum install hostname && npm install",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
-}
