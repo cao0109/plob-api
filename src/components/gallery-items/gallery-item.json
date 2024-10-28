@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_gallery_items_gallery_items",
+  "info": {
+    "displayName": "gallery-item",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

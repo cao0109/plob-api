@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_team_items_team_items",
+  "info": {
+    "displayName": "team-item",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.social-link",
+      "required": true
+    }
+  }
+}

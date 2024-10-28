@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "professionalexperiences",
+  "info": {
+    "singularName": "professionalexperience",
+    "pluralName": "professionalexperiences",
+    "displayName": "ProfessionalExperiences",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Over 12 Year Professional Experiences"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit auctor. nam elit nulla eget sodales dui pulvinar. Best Strategic planning dolor sit sectetur morethe  Scelerisque amet odio velit eu auctor. Aliquet nam elit."
+    },
+    "experiencesInner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experiences-inners.experiences-inner",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Read More",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "required": true,
+      "default": "/about-one"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

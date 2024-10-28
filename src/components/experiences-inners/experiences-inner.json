@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_experiences_inners_experiences_inners",
+  "info": {
+    "displayName": "experiences-inner",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Best Strategic planning dolor sit amet consectetur adipiscing elit. risque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best eone Strategic planning dolor."
+    }
+  }
+}

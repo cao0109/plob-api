@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Frequently Asked Questions"
+    },
+    "shortDesc": {
+      "type": "string",
+      "required": true,
+      "default": "Which peoples loves us a lot, please check out what about says about us"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "accordionItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion-items.accordion-item",
+      "required": true
+    }
+  }
+}

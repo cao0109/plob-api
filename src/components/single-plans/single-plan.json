@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_single_plans_single_plans",
+  "info": {
+    "displayName": "single-plan",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "period": {
+      "type": "string",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "Purchase Now "
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "planFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plans-features.plans-feature",
+      "required": true
+    }
+  }
+}

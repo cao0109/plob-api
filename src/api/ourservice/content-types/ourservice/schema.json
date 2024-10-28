@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "ourservices",
+  "info": {
+    "singularName": "ourservice",
+    "pluralName": "ourservices",
+    "displayName": "OurServices",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Services We Offer"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit auctor nam elit nulla eget sodales dui pulvina"
+    }
+  }
+}

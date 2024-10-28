@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "partnerlogos",
+  "info": {
+    "singularName": "partnerlogo",
+    "pluralName": "partnerlogos",
+    "displayName": "PartnerLogo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partnerItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner-items.partner-item",
+      "required": true
+    }
+  }
+}

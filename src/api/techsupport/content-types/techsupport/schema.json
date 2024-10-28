@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "techsupports",
+  "info": {
+    "singularName": "techsupport",
+    "pluralName": "techsupports",
+    "displayName": "TechSupport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Lightning-Fast Tech Support, Guaranteed"
+    },
+    "designation": {
+      "type": "string",
+      "required": true,
+      "default": "CEO at Flod Agency"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Regan Rosen"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "As a midsize software development company, we combine the best of both worlds. We have the focus and speed of the small IT outsourcing companies along with the scalability and expertise of the big ones."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "servicescontactinfos",
+  "info": {
+    "singularName": "servicescontactinfo",
+    "pluralName": "servicescontactinfos",
+    "displayName": "ServicesContactInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "创造不可能"
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "default": "3128959800"
+    },
+    "email": {
+      "type": "email",
+      "default": "hello.me@plob.com",
+      "required": true
+    }
+  }
+}

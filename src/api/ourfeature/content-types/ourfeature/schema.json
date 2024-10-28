@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "ourfeatures",
+  "info": {
+    "singularName": "ourfeature",
+    "pluralName": "ourfeatures",
+    "displayName": "OurFeature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featuresItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature-items.feature-item",
+      "required": true
+    }
+  }
+}

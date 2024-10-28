@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "bestplans",
+  "info": {
+    "singularName": "bestplan",
+    "pluralName": "bestplans",
+    "displayName": "BestPlan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Choose Your Best Plans"
+    },
+    "shortDesc": {
+      "type": "string",
+      "required": true,
+      "default": "Pay by monthly or yearly, you can cancel it anytime whatever you want"
+    },
+    "plansTab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plans-tabs.plans-tab",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "See All Pricing Plan"
+    },
+    "btnLink": {
+      "type": "string",
+      "required": true,
+      "default": "/pricing"
+    }
+  }
+}
