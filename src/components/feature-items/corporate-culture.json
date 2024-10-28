@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_feature_items_corporate_cultures",
+    "info": {
+        "displayName": "corporate culture"
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "title": {
+            "type": "string"
+        },
+        "shortDesc": {
+            "type": "string"
+        },
+        "btnText": {
+            "type": "string"
+        }
+    }
+}

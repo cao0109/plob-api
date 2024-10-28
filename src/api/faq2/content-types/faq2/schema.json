@@ -1,0 +1,37 @@
+{
+    "kind": "singleType",
+    "collectionName": "faq2s",
+    "info": {
+        "singularName": "faq2",
+        "pluralName": "faq2s",
+        "displayName": "faq2"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "required": true
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true
+        },
+        "image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "accordionItem": {
+            "type": "component",
+            "repeatable": true,
+            "component": "accordion-items.accordion-item",
+            "required": true
+        }
+    }
+}

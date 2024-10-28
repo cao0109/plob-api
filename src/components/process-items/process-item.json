@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_process_items_process_items",
+    "info": {
+        "displayName": "process-item",
+        "icon": "arrowRight"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "icon": {
+            "type": "string",
+            "required": true
+        },
+        "className": {
+            "type": "string"
+        }
+    }
+}

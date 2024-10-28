@@ -1,0 +1,21 @@
+{
+    "kind": "singleType",
+    "collectionName": "processes",
+    "info": {
+        "singularName": "process",
+        "pluralName": "processes",
+        "displayName": "Process"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "processItem": {
+            "type": "component",
+            "repeatable": true,
+            "component": "process-items.process-item",
+            "required": true
+        }
+    }
+}

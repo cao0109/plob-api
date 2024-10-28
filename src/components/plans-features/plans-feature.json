@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_plans_features_plans_features",
+    "info": {
+        "displayName": "plans-feature",
+        "icon": "arrowRight"
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "string",
+            "required": true,
+            "default": "ri-check-line"
+        },
+        "feature": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

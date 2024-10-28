@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_plans_tabs_plans_tabs",
+    "info": {
+        "displayName": "plans-tab",
+        "icon": "arrowRight",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "singlePlans": {
+            "type": "component",
+            "repeatable": true,
+            "component": "single-plans.single-plan",
+            "required": true
+        }
+    }
+}

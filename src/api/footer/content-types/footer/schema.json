@@ -1,0 +1,98 @@
+{
+    "kind": "singleType",
+    "collectionName": "footers",
+    "info": {
+        "singularName": "footer",
+        "pluralName": "footers",
+        "displayName": "Footer",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "logo": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true,
+            "default": "Best solution for your it startup business consecteturadipiscing elit. Scelerisque amet odio velit auctor. nam elit nulla."
+        },
+        "phone": {
+            "type": "string",
+            "required": true,
+            "default": "3128959800"
+        },
+        "email": {
+            "type": "email",
+            "default": "hello.me@plob.com",
+            "required": true
+        },
+        "address": {
+            "type": "string",
+            "default": "121 St, Melbourne VIC 3000, Australia"
+        },
+        "title": {
+            "type": "string",
+            "required": true,
+            "default": "Quick Link"
+        },
+        "quickLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "footer-links.footer-link",
+            "required": true
+        },
+        "titleTwo": {
+            "type": "string",
+            "required": true,
+            "default": "About Us"
+        },
+        "aboutLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "footer-links.footer-link",
+            "required": true
+        },
+        "titleThree": {
+            "type": "string",
+            "required": true,
+            "default": "Services"
+        },
+        "servicesLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "footer-links.footer-link",
+            "required": true
+        },
+        "titleFour": {
+            "type": "string",
+            "required": true,
+            "default": "Blog"
+        },
+        "blogLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "footer-links.footer-link",
+            "required": true
+        },
+        "description": {
+            "type": "string",
+            "required": true,
+            "default": "Best solution for your it startup business consectetur adipiscing elit."
+        },
+        "socialLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "social-links.social-link",
+            "required": true
+        }
+    }
+}

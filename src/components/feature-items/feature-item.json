@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_feature_items_feature_items",
+    "info": {
+        "displayName": "feature-item",
+        "icon": "arrowRight"
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true,
+            "default": "Best Strategic planning dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit, eu, auctor. Aliquet nam elit nulla eget sodales dui pulvinar."
+        },
+        "btnText": {
+            "type": "string",
+            "required": true,
+            "default": "Read More"
+        }
+    }
+}

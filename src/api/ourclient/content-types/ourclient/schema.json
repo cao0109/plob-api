@@ -1,0 +1,32 @@
+{
+    "kind": "singleType",
+    "collectionName": "ourclients",
+    "info": {
+        "singularName": "ourclient",
+        "pluralName": "ourclients",
+        "displayName": "OurClient",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "required": true,
+            "default": "Our Respected Clients"
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true,
+            "default": "Which peoples loves us a lot, please check out what about says about us"
+        },
+        "clientsItem": {
+            "type": "component",
+            "repeatable": true,
+            "component": "clients-items.clients-item",
+            "required": true
+        }
+    }
+}

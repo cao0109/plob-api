@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_clients_items_clients_items",
+    "info": {
+        "displayName": "clients-item",
+        "icon": "arrowRight",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "designation": {
+            "type": "string",
+            "required": true,
+            "default": "‘’As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies along with the scalability and expertise of the big ones.’’"
+        },
+        "description": {
+            "type": "string",
+            "required": true,
+            "default": "‘’As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies along with the scalability and expertise of the big ones.’’"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "kind": "singleType",
+    "collectionName": "ourteams",
+    "info": {
+        "singularName": "ourteam",
+        "pluralName": "ourteams",
+        "displayName": "OurTeam",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "default": "Meet With Our Consultants",
+            "required": true
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true,
+            "default": "Which peoples loves us a lot, please check out what about says about us"
+        },
+        "teamItem": {
+            "type": "component",
+            "repeatable": true,
+            "component": "team-items.team-item",
+            "required": true
+        },
+        "btnText": {
+            "type": "string",
+            "required": true,
+            "default": "See Team Member"
+        },
+        "btnLink": {
+            "type": "string",
+            "default": "/team-member",
+            "required": true
+        }
+    }
+}

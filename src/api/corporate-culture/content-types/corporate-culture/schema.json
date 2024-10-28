@@ -1,0 +1,21 @@
+{
+    "kind": "singleType",
+    "collectionName": "corporate_cultures",
+    "info": {
+        "singularName": "corporate-culture",
+        "pluralName": "corporate-cultures",
+        "displayName": "corporate culture"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "corporateCulture": {
+            "displayName": "corporate culture",
+            "type": "component",
+            "repeatable": true,
+            "component": "feature-items.corporate-culture"
+        }
+    }
+}

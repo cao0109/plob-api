@@ -1,0 +1,30 @@
+{
+    "kind": "singleType",
+    "collectionName": "contacts",
+    "info": {
+        "singularName": "contact",
+        "pluralName": "contacts",
+        "displayName": "contact"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "tel": {
+            "type": "string",
+            "required": true,
+            "default": "（0411）990-2384"
+        },
+        "email": {
+            "type": "string",
+            "required": true,
+            "default": "he.tong@hicity.world"
+        },
+        "address": {
+            "type": "string",
+            "required": true,
+            "default": "辽宁省大连高新园区三丰大厦B座2006"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "kind": "collectionType",
+    "collectionName": "services",
+    "info": {
+        "singularName": "service",
+        "pluralName": "services",
+        "displayName": "Services",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "className": {
+            "type": "string",
+            "required": false
+        },
+        "icon": {
+            "type": "string",
+            "required": true
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true,
+            "default": "Branding just like your personal identity makes you uniquely you your brand identity is the special sauce of your business that sets you apart from every other Tom Dick and Harry Inc."
+        },
+        "btnText": {
+            "type": "string",
+            "required": true,
+            "default": "Read More"
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "title",
+            "required": true
+        },
+        "richText": {
+            "type": "richtext",
+            "required": true
+        },
+        "overviewImage": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        }
+    }
+}

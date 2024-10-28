@@ -1,0 +1,26 @@
+{
+    "kind": "singleType",
+    "collectionName": "blogposts",
+    "info": {
+        "singularName": "blogpost",
+        "pluralName": "blogposts",
+        "displayName": "BlogPost",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "required": true,
+            "default": "Popular Blog Post"
+        },
+        "shortDesc": {
+            "type": "string",
+            "required": true,
+            "default": "We are try to Update with Latest Article and Blog Post Best Strategic Planning"
+        }
+    }
+}
